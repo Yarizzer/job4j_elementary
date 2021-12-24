@@ -19,15 +19,6 @@ public class Multiple {
         System.out.println("8 * 1 = 8");
         System.out.println("9 * 1 = 9");
         System.out.println("10 * 1 = 10");
-
-//        int factor = 1;
-//        getNums().forEach (value -> {
-//            System.out.println(value + " * " + factor + " = " + computeFor(value, factor));
-//        });
-
-        int age = 18;
-        float length = 78.0332F;
-        boolean baby = true;
     }
 
     private static int computeFor(int value, int factor) {
