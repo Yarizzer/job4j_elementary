@@ -1,9 +1,5 @@
 package ru.job4j;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class Multiple {
     public static void main(String[] args) {
         System.out.println("Yaroslav Abaturov");
@@ -19,13 +15,5 @@ public class Multiple {
         System.out.println("8 * 1 = 8");
         System.out.println("9 * 1 = 9");
         System.out.println("10 * 1 = 10");
-    }
-
-    private static int computeFor(int value, int factor) {
-        return value * factor;
-    }
-
-    private static List<Integer> getNums() {
-        return new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
     }
 }
