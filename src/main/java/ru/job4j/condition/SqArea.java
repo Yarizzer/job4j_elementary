@@ -12,7 +12,7 @@ public class SqArea {
     }
 
     public static double square(double p, double k) {
-        double height = p / (2 * (k + 1));
+        double height = p / 2 / (k + 1);
         return pow(height, 2) * k;
     }
 }
