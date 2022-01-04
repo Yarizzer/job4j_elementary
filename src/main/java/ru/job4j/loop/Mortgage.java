@@ -8,6 +8,7 @@ public class Mortgage {
             amount += amount * (percent * 0.01) - salary;
             year++;
         }
+
         return year;
     }
 }
