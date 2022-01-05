@@ -10,10 +10,10 @@ public class Machine {
 
         money -= price;
 
-        for (int i : coins) {
-            while (money >= i) {
-                rsl[size] = i;
-                money -= i;
+        for (int coin : coins) {
+            while (money >= coin) {
+                rsl[size] = coin;
+                money -= coin;
                 size++;
             }
         }
