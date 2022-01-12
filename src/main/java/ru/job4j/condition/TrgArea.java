@@ -10,7 +10,6 @@ public class TrgArea {
 
     private static double area(double a, double b, double c) {
         double halfP = (a + b + c) / 2;
-
         return sqrt(halfP * (halfP - a) * (halfP - b) * (halfP - c));
     }
 }

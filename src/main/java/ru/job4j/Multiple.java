@@ -4,7 +4,6 @@ public class Multiple {
     public static void main(String[] args) {
         System.out.println("Yaroslav Abaturov");
         System.out.println("30.04.1983");
-
         System.out.println("1 * 1 = 1");
         System.out.println("2 * 1 = 2");
         System.out.println("3 * 1 = 3");
